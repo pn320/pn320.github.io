@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, Roboto, sans-serif;
+  min-height: 100vh;
+  font-weight: 400;
+}
+
+.main-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading {
+  font-size: 100px;
+  font-weight: 300;
+  position: relative;
+  transform: translate(25%, 0);
+}
+
+.heading::first-letter {
+  font-size: 160px;
+  font-weight: 200;
+}
+
+.intro {
+  font-size: 18px;
+  transform: translate(0, -170%);
+}
